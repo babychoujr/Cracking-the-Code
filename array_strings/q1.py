@@ -12,14 +12,6 @@ Time Complexity:  O(n)
 Space Complexity:  O(n)
 """
 def isUnique(test_string):
-    #test_string.sort()
-
-
-    #for i in range(1, len(test_string)):
-       # if test_string[i-1] == test_string[i]:
-          #  return False
-
-    #return True
 
     str_dict = {}
 
