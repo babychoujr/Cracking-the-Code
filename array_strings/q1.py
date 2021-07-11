@@ -5,10 +5,11 @@
 
 """
 Approach:
-1.Sort then compare if any neighboring letters are the same
+1.Calculate the number of letters in the string
+2. If two appear, return false
 
-Time Complexity:
-Space Complexity:
+Time Complexity:  O(n)
+Space Complexity:  O(n)
 """
 def isUnique(test_string):
     #test_string.sort()
